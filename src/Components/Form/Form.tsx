@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import React from 'react';
 import MenuItem from '@material-ui/core/MenuItem';
-import "../Form/Form.scss";
+import "./Form.scss";
 
 const useStyles = makeStyles((theme) => ({
   root: {

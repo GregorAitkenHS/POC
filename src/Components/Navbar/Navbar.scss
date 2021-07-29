@@ -1,0 +1,11 @@
+.HealthShield {
+    .MuiAppBar-colorPrimary {
+        color: #fff;
+        background-image: linear-gradient(180deg,#62ebb9,#2cb5d6);
+        background-color: white;
+    } //change to rgba()
+
+    span.MuiIconButton-label img {
+        filter: brightness(100);
+    }
+}
