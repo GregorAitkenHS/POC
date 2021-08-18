@@ -11,7 +11,7 @@ function Home() {
         img="https://www.healthshield.co.uk/media/1272/header9.png"
         link="/claim"
         linkTitle="Button Title"
-      />
+      /> 
       <div className="container Home_options">
         <h2>Welcome to your Health Shield Members’ Area</h2>
         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
