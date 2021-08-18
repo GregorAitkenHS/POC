@@ -1,0 +1,102 @@
+.HealthShield {
+  .HeroWrapper {
+    a.Button {
+      border: 1px solid white;
+      padding: 8px 19px;
+      @media screen and (max-width: 900px) {
+        padding: 5px;
+        font-size: 0.9rem;
+      }
+      text-decoration: none;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: beige;
+      background: #ffffff;
+      color: #51c9d5;
+      border-radius: 3px;
+    }
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    h2,
+    p,
+    a {
+      color: white;
+      @media screen and (max-width: 900px) {
+        font-size: 1rem;
+        line-height: 1rem;
+      }
+    }
+    h2 {
+      font-size: 3rem;
+      @media screen and (max-width: 900px) {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+      }
+      line-height: 7px;
+      padding-top: 39px;
+    }
+    h4 {
+      font-size: 1.2rem;
+      @media screen and (max-width: 900px) {
+        font-size: 1rem;
+        line-height: 1rem;
+      }
+      padding-bottom: 6px;
+    }
+    &-title {
+      padding-left: 3rem;
+    }
+    &_left {
+      background-image: linear-gradient(90deg, #2cb5d6, #2cb5d6, #62ebb9);
+      width: 50%;
+      min-height: 300px;
+      vertical-align: top;
+      position: relative;
+      z-index: 3;
+      display: inline-block;
+    }
+    &_right {
+      background-image: linear-gradient(90deg, #2cb5d6, #2cb5d6, #62ebb9);
+      width: 50%;
+      min-height: 300px;
+      position: relative;
+      overflow: hidden;
+      background-size: cover;
+      display: inline-block;
+
+      &:after {
+        background-image: linear-gradient(
+          62deg,
+          #62ebb9,
+          rgba(98, 235, 185, 0.9),
+          rgb(98 235 185 / 12%)
+        );
+        content: "";
+        width: 180px;
+        transform: rotate(30deg);
+        height: 100%;
+        position: absolute;
+        z-index: 3;
+        top: -121px;
+        left: -5px;
+      }
+      &:before {
+        background-image: linear-gradient(
+          292deg,
+          #60e9ba,
+          #62ebb9,
+          rgba(98, 235, 185, 0.5)
+        );
+        content: "";
+        width: 180px;
+        transform: rotate(328deg);
+        height: 600px;
+        position: absolute;
+        z-index: 2;
+        bottom: -100px;
+        left: -135px;
+      }
+    }
+  }
+}

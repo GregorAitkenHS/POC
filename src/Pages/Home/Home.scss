@@ -1,0 +1,16 @@
+.Home {
+  color: black;
+  background: #f4f4f4;
+  &_options {
+    h2,
+    h5 {
+      text-align: center;
+    }
+    h5 {
+      font-size: 14px;
+      font-family: "Muli";
+      line-height: 0px;
+      margin-top: -5px;
+    }
+  }
+}
