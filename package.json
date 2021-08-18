@@ -1,7 +1,6 @@
 {
   "name": "poc",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@babel/core": "^7.13.0",
     "@material-ui/core": "^4.11.4",
